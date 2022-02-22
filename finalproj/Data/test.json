@@ -1,0 +1,42 @@
+{
+  "artists": [
+    {
+      "main": "Eric",
+      "featuredOn": [
+        "Joe",
+        "Ryan",
+        "Fin"
+      ]
+    },
+    {
+      "main": "Joe",
+      "featuredOn": [
+        "Ryan"
+      ]
+    },
+    {
+      "main": "Ryan",
+      "featuredOn": [
+        "Lando",
+        "Eric",
+        "Fin"
+      ]
+    },
+    {
+      "main": "Fin",
+      "featuredOn": [
+        "Lando"
+      ]
+    },
+    {
+      "main": "Bleu",
+      "featuredOn": [
+        "Fin"
+      ]
+    },
+    {
+      "main": "Lando",
+      "featuredOn": [
+      ]
+    }]
+}

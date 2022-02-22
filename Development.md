@@ -1,0 +1,14 @@
+Week of November 8th:
+This week our team spent time putting together our project proposal and group contract. Our proposal was approved after some modifications (mainly surrounding our chosen algorithms) on Thursday the 11th. We also created the files necessary to begin work on our project, including header and source files for our graph class, a main file for executing analysis, as well as a skeleton Makefile and test suite. 
+
+Week of November 15th:
+Work this week was limited as our group wrapped up work for other classes going into break. We did make some progress, though, in the way of data preprocessing. We used Python to parse our dataset's text file, removing the titles of songs and writing all of the artists into a JSON file. Each JSON object represents a song containing the name of the main artist as well as a list of collaborating artists. This is what we will use as the data input for our final graph.
+
+Week of November 22nd:
+Our group made sizeable progress on our project over Thanksgiving break. We first implemented the foundations of our graph class and node subclass, which is implemented as an adjacency list. Additionally, we implemented an iterative DFS traversal that returns a vector of nodes in DFS order of a graph. To test out our project we filled out our Makefile to compile the code and began building out the test suite for our code base.
+
+Week of November 29th:
+This week our group prepared for the mid-project check-in. Our graph class' constructor was fully fleshed out, and a JSON library was added for reading the output file produced by the preprocessing of our dataset. This allowed us to actually create our graph. We also updated our test cases and our test dataset due to the new constructor, as well our getIndex function in order to work with a broader range of inputs. Finally, we updated our DFS function to be more readable via a helper function that will also be used by our Kosaraju algorithimm, which begins DFS at a specific node.
+
+Week of December 6th:
+This week our group set out to complete the remainder of the project. We first implemented the Kosaraju algorithm, which included developing a stack based recursive DFS helper function and an edge reversal helper function. This was followed by the implementation of our second analysis algorithm, Brandes, which uses a BFS-based helper function. We also built out several tests to ensure our algorithms were working as anticipated. With these tests, we split our suite into different files for each key component of our project and also added one all-encompassing test file which uses a JSON data source to construct the graph. This ensures our code will work with our real dataset, which also comes from a JSON file. Finally, we put together all of our project deliverables and updated our README.
